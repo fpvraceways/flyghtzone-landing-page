@@ -48,6 +48,7 @@ a:focus {
   font-weight: 400;
 }
 .navbar-custom {
+  min-height: 80px;
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
@@ -106,6 +107,9 @@ a:focus {
     -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
     transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
   }
+  .navbar-custom .nav {
+    margin: 15px 0;
+  }
   .navbar-custom.top-nav-collapse {
     padding: 0;
     background: black;
@@ -115,7 +119,6 @@ a:focus {
 .intro {
   display: table;
   width: 100%;
-  height: auto;
   padding: 100px 0;
   text-align: center;
   color: white;
