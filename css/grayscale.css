@@ -11,6 +11,14 @@ html {
   width: 100%;
   height: 100%;
 }
+section {
+  padding: 100px 0;
+}
+@media (max-width: 767px) {
+  section {
+    padding: 75px 0;
+  }
+}
 h1,
 h2,
 h3,
@@ -268,11 +276,9 @@ a:focus {
 }
 .content-section {
   background-color: #222222;
-  padding-top: 100px;
 }
 .download-section {
   width: 100%;
-  padding: 50px 0;
   color: white;
   background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
   background-color: #222222;
@@ -287,12 +293,6 @@ a:focus {
   margin-top: 100px;
 }
 @media (min-width: 767px) {
-  .content-section {
-    padding-top: 250px;
-  }
-  .download-section {
-    padding: 100px 0;
-  }
   #map {
     height: 400px;
     margin-top: 250px;

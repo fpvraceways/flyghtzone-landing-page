@@ -16,6 +16,16 @@ html {
   height: 100%;
 }
 
+section {
+  padding: 100px 0;
+}
+
+@media (max-width: 767px) {
+  section {
+    padding: 75px 0;
+  }
+}
+
 h1,
 h2,
 h3,
@@ -296,12 +306,10 @@ a {
 
 .content-section {
   background-color: @dark;
-  padding-top: 100px;
 }
 
 .download-section {
   width: 100%;
-  padding: 50px 0;
   color: white;
   background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
   background-color: @dark;
@@ -319,11 +327,9 @@ a {
 
 @media(min-width:767px) {
   .content-section {
-    padding-top: 250px;
   }
 
   .download-section {
-    padding: 100px 0;
   }
 
   #map {
