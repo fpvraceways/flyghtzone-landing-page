@@ -277,9 +277,6 @@ a:focus {
     transform: scale(1);
   }
 }
-.content-section {
-  background-color: #222222;
-}
 .download-section {
   width: 100%;
   color: white;
