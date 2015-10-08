@@ -19,6 +19,13 @@ section {
     padding: 75px 0;
   }
 }
+input.form-control {
+  border-radius: 0 !important;
+}
+input.form-control:focus {
+  border-color: #f26f21;
+  box-shadow: none;
+}
 h1,
 h2,
 h3,
@@ -336,6 +343,55 @@ ul.banner-social-buttons {
   ul.banner-social-buttons li:last-child {
     margin-bottom: 0;
   }
+}
+.floating-label-form-group {
+  position: relative;
+  margin-bottom: 0;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #e1e1e1;
+}
+.floating-label-form-group input,
+.floating-label-form-group textarea {
+  z-index: 1;
+  position: relative;
+  padding-right: 0;
+  padding-left: 0;
+  border: none;
+  border-radius: 0;
+  font-size: 1.5em;
+  background: none;
+  box-shadow: none !important;
+  resize: none;
+}
+.floating-label-form-group label {
+  display: block;
+  z-index: 0;
+  position: relative;
+  top: 2em;
+  margin: 0;
+  font-size: 0.85em;
+  line-height: 1.764705882em;
+  vertical-align: middle;
+  vertical-align: baseline;
+  opacity: 0;
+  -webkit-transition: top 0.5s ease, opacity 0.5s ease;
+  -moz-transition: top 0.5s ease, opacity 0.5s ease;
+  -ms-transition: top 0.5s ease, opacity 0.5s ease;
+  transition: top 0.5s ease, opacity 0.5s ease;
+}
+.floating-label-form-group::not(:first-child) {
+  padding-left: 14px;
+  border-left: 1px solid #e1e1e1;
+}
+.floating-label-form-group-with-value label {
+  top: 0;
+  opacity: 1;
+}
+.floating-label-form-group-with-focus label {
+  color: #f26f21;
+}
+form .row:first-child .floating-label-form-group {
+  border-top: 1px solid #e1e1e1;
 }
 footer.footer {
   color: rgba(255, 255, 255, 0.7);
