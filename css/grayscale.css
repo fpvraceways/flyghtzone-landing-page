@@ -3,7 +3,7 @@ body {
   height: 100%;
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: white;
-  background-color: black;
+  background-color: #222222;
 }
 html {
   width: 100%;
@@ -35,7 +35,7 @@ p {
   }
 }
 a {
-  color: #42dca3;
+  color: #b02ec9;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -43,7 +43,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #1d9b6c;
+  color: #671b76;
 }
 .light {
   font-weight: 400;
@@ -54,7 +54,7 @@ a:focus {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: black;
+  background-color: #222222;
 }
 .navbar-custom .navbar-brand {
   font-weight: 700;
@@ -113,7 +113,7 @@ a:focus {
   }
   .navbar-custom.top-nav-collapse {
     padding: 0;
-    background: black;
+    background: #222222;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
 }
@@ -216,7 +216,7 @@ a:focus {
   }
 }
 .content-section {
-  background-color: black;
+  background-color: #222222;
   padding-top: 100px;
 }
 .download-section {
@@ -224,7 +224,7 @@ a:focus {
   padding: 50px 0;
   color: white;
   background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
-  background-color: black;
+  background-color: #222222;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -257,16 +257,16 @@ a:focus {
   border-radius: 0;
 }
 .btn-default {
-  border: 1px solid #42dca3;
-  color: #42dca3;
+  border: 1px solid #b02ec9;
+  color: #b02ec9;
   background-color: transparent;
 }
 .btn-default:hover,
 .btn-default:focus {
-  border: 1px solid #42dca3;
+  border: 1px solid #b02ec9;
   outline: none;
-  color: black;
-  background-color: #42dca3;
+  color: #222222;
+  background-color: #b02ec9;
 }
 ul.banner-social-buttons {
   margin-top: 0;
