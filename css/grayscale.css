@@ -286,13 +286,16 @@ ul.banner-social-buttons {
     margin-bottom: 0;
   }
 }
-footer {
-  padding: 50px 0;
+footer.footer {
+  color: rgba(255, 255, 255, 0.7);
+  background: no-repeat center center scroll;
+  padding: 50px 0 20px;
 }
-footer p {
+footer.footer p {
+  font-size: 22px;
   margin: 0;
 }
-footer p.small {
+footer.footer .copyright p.small {
   font-size: 14px;
 }
 ::-moz-selection {
