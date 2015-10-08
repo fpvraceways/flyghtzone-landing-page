@@ -388,7 +388,7 @@ form .row:first-child .floating-label-form-group {
 }
 footer.footer {
   color: rgba(255, 255, 255, 0.7);
-  background: no-repeat center center scroll;
+  background-color: #222222;
   padding: 50px 0 20px;
 }
 footer.footer p {
