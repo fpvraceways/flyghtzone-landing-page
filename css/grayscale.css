@@ -23,7 +23,7 @@ input.form-control {
   border-radius: 0 !important;
 }
 input.form-control:focus {
-  border-color: #f26f21;
+  border-color: #b02ec9;
   box-shadow: none;
 }
 h1,
@@ -388,7 +388,7 @@ ul.banner-social-buttons {
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: #f26f21;
+  color: #b02ec9;
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #e1e1e1;
