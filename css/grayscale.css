@@ -292,6 +292,9 @@ footer {
 footer p {
   margin: 0;
 }
+footer p.small {
+  font-size: 14px;
+}
 ::-moz-selection {
   text-shadow: none;
   background: #fcfcfc;
