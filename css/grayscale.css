@@ -119,6 +119,37 @@ a:focus {
 .light {
   font-weight: 400;
 }
+.btn-primary {
+  color: #ffffff;
+  background-color: #b02ec9;
+  border-color: #b02ec9;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active {
+  color: #ffffff;
+  background-color: #c252d8;
+  border-color: #c252d8;
+}
+.btn-outline-dark {
+  color: #222222;
+  border: 1px solid #222222;
+  background: transparent;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.btn-outline-dark:hover,
+.btn-outline-dark:focus {
+  color: white;
+  background: #b02ec9;
+  border-color: #b02ec9;
+  outline: none;
 }
 .navbar-custom {
   min-height: 80px;

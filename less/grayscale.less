@@ -139,6 +139,38 @@ a {
   font-weight: 400;
 }
 
+.btn-primary {
+  color: #ffffff;
+  background-color: @primary;
+  border-color: @primary;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+  &:hover,
+  &:focus,
+  &.focus,
+  &:active,
+  &.active {
+    color: #ffffff;
+    background-color: lighten(@primary, 10%);
+    border-color: lighten(@primary, 10%);
+  }
+}
+
+.btn-outline-dark {
+  color: @dark;
+  border: 1px solid @dark;
+  background: transparent;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+  &:hover,
+  &:focus {
+    color: white;
+    background: @primary;
+    border-color: @primary;
+    outline: none;
+  }
 }
 
 .navbar-custom {
