@@ -27,6 +27,11 @@ section {
   color: white;
 }
 
+.bg-primary {
+  background-color: darken(@primary, 20%);
+  color: white;
+}
+
 @media (max-width: 767px) {
   section {
     padding: 75px 0;
@@ -259,10 +264,8 @@ a {
   display: table;
   width: 100%;
   height: auto;
-  background-color: @primary;
   padding: 100px 0;
   text-align: center;
-  color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -270,7 +273,6 @@ a {
   .intro-body {
     display: table-cell;
     vertical-align: middle;
-    background-color: rgba(0,0,0,.5);
     .brand-heading {
       font-size: 40px;
     }
