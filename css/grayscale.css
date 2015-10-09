@@ -205,6 +205,9 @@ a:focus {
 .intro .intro-body .brand-heading {
   font-size: 40px;
 }
+.intro .intro-body .brand {
+  margin-bottom: 25px;
+}
 .intro .intro-body .intro-text {
   font-size: 18px;
 }
@@ -215,6 +218,9 @@ a:focus {
   }
   .intro .intro-body .brand-heading {
     font-size: 100px;
+  }
+  .intro .intro-body .brand {
+    margin-bottom: 35px;
   }
   .intro .intro-body .intro-text {
     font-size: 26px;
