@@ -78,8 +78,9 @@
           <img src="img/flyghtzone-profile.png" class="img-responsive img-centered brand" alt="">
 
           <p class="intro-text">Coming soon!</p>
-          <a href="#about" class="btn btn-circle page-scroll">
-            <i class="fa fa-angle-down animated"></i>
+          <a href="#about" class="btn page-scroll" data-toggle="modal" data-target=".drone-race-video" data-src="https://www.youtube-nocookie.com/embed/bR4Gq9qfpnM">
+            <i class="fa fa-youtube-play fa-4x animated"></i>
+            <p class="small">[play video]</p>
           </a>
         </div>
       </div>
@@ -292,6 +293,21 @@
 <!-- Custom Theme JavaScript -->
 <script src="js/grayscale.js"></script>
 
+<!-- Video modal trigger -->
+<script type="text/javascript">
+(function($) {
+  var trigger = $("body").find('[data-toggle="modal"]');
+  trigger.click(function () {
+    var video_modal = $(this).data("target");
+    var video_src = $(this).attr("data-src");
+    var video_src_auto = video_src + "?autoplay=1&rel=0&controls=0&fs=1&showinfo=0";
+    $(video_modal + ' iframe').attr('src', video_src_auto);
+    $(video_modal + ' button.close').click(function () {
+      $(video_modal + ' iframe').attr('src', video_src);
+    });
+  });
+})(jQuery); // End of use strict
+</script>
 </body>
 
 </html>
