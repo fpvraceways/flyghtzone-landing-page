@@ -15,7 +15,7 @@ html {
 section {
   padding: 100px 0;
 }
-section.inverse {
+.bg-dark {
   background-color: #222222;
   color: white;
 }
