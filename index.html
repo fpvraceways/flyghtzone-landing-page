@@ -279,7 +279,7 @@
   trigger.click(function () {
     var video_modal = $(this).data("target");
     var video_src = $(this).attr("data-src");
-    var video_src_auto = video_src + "?autoplay=1&rel=0&controls=0&fs=1&showinfo=0";
+    var video_src_auto = video_src + "?autoplay=1&rel=0&fs=1&showinfo=0&modestbranding=1";
     $(video_modal + ' iframe').attr('src', video_src_auto);
     $(video_modal + ' button.close').click(function () {
       $(video_modal + ' iframe').attr('src', video_src);
