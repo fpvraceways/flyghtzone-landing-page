@@ -428,15 +428,15 @@ form .row:first-child .floating-label-form-group {
   border-top: 1px solid #e1e1e1;
 }
 footer.footer {
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
   background-color: #222222;
   padding: 50px 0 20px;
 }
 footer.footer p {
   font-size: 22px;
-  margin: 0;
 }
 footer.footer .copyright p.small {
+  color: rgba(255, 255, 255, 0.7);
   font-size: 14px;
 }
 footer.footer .social {
