@@ -22,6 +22,20 @@ section {
   padding: 100px 0;
 }
 
+.modal section {
+  padding: 40px 0;
+}
+
+@media (max-width: 767px) {
+  section {
+    padding: 75px 0;
+  }
+
+  .modal section {
+    padding: 20px 0;
+  }
+}
+
 .bg-dark {
   background-color: @dark;
   color: white;
@@ -30,12 +44,6 @@ section {
 .bg-primary {
   background-color: darken(@primary, 20%);
   color: white;
-}
-
-@media (max-width: 767px) {
-  section {
-    padding: 75px 0;
-  }
 }
 
 input.form-control {
