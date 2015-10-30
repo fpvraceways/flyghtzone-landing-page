@@ -428,8 +428,6 @@ form .row:first-child .floating-label-form-group {
   border-top: 1px solid #e1e1e1;
 }
 footer.footer {
-  color: white;
-  background-color: #222222;
   padding: 50px 0 20px;
 }
 footer.footer p {
