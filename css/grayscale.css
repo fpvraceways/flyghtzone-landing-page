@@ -434,8 +434,6 @@ form .row:first-child .floating-label-form-group {
   border-top: 1px solid #e1e1e1;
 }
 footer.footer {
-  color: white;
-  background-color: #222222;
   padding: 50px 0 20px;
 }
 footer.footer p {
@@ -466,4 +464,18 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
+}
+blockquote {
+  border: none;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+blockquote:before {
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
 }

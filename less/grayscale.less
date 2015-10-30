@@ -489,12 +489,9 @@ form .row:first-child .floating-label-form-group {
 }
 
 footer.footer {
-  color: white;
-  background-color: @dark;
   padding: 50px 0 20px;
   p {
     font-size: 22px;
-//    margin: 0;
   }
   .copyright p.small {
     color: rgba(255, 255, 255, 0.7);
@@ -527,4 +524,19 @@ img::-moz-selection {
 
 body {
   webkit-tap-highlight-color: fade(white, 20%);
+}
+
+blockquote {
+  border: none;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+blockquote:before {
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
 }
