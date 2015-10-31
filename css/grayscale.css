@@ -12,6 +12,10 @@ html {
 .img-centered {
   margin: 0 auto;
 }
+ul li label {
+  margin-left: 10px;
+  font-weight: normal;
+}
 section {
   padding: 100px 0;
 }
