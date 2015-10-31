@@ -440,13 +440,6 @@ form .row:first-child .floating-label-form-group {
 footer.footer {
   padding: 50px 0 20px;
 }
-footer.footer p {
-  font-size: 22px;
-}
-footer.footer .copyright p.small {
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 14px;
-}
 footer.footer .social {
   margin-bottom: 75px;
 }
