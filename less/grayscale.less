@@ -138,14 +138,22 @@ a {
   font-weight: 400;
 }
 
-.mce_inline_error {
-  color: #3c763d !important;
-  background-color: #dff0d8 !important;
-}
-
-.mce-success-response {
-  color: #a94442 !important;
-  background-color: #f2dede !important;
+#mce-responses {
+  margin-bottom: 20px;
+  font-weight: 700;
+  .response {
+    padding: 10px;
+  }
+  #mce-error-response {
+    color: #a94442 !important;
+    background-color: #f2dede !important;
+    border: #a94442 solid 1px;
+  }
+  #mce-success-response {
+    color: #3c763d !important;
+    background-color: #dff0d8 !important;
+    border: #3c763d solid 1px;
+  }
 }
 
 .btn-primary {
