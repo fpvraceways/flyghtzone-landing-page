@@ -402,6 +402,11 @@ a {
   -moz-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
   border-radius: 0;
+  &.disabled {
+    background: transparent;
+    border: transparent;
+    text-decoration: line-through;
+  }
 }
 
 .btn-default {

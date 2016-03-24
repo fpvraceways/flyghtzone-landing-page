@@ -355,6 +355,11 @@ a:focus {
   transition: all 0.3s ease-in-out;
   border-radius: 0;
 }
+.btn.disabled {
+  background: transparent;
+  border: transparent;
+  text-decoration: line-through;
+}
 .btn-default {
   border: 1px solid #b02ec9;
   color: #b02ec9;
