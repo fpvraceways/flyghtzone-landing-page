@@ -478,3 +478,8 @@ blockquote:before {
 blockquote p {
   display: inline;
 }
+.carousel-control.right,
+.carousel-control.left {
+  background: none;
+  color: inherit;
+}
