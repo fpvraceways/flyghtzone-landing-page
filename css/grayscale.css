@@ -345,7 +345,6 @@ a:focus {
   transition: all 0.5s;
 }
 .btn {
-  margin-bottom: 2em;
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -481,4 +480,7 @@ blockquote p {
 .carousel-control.left {
   background: none;
   color: inherit;
+}
+#mc_embed_signup {
+  margin-bottom: 35px;
 }
