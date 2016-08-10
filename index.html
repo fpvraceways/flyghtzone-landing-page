@@ -390,10 +390,10 @@
   ga('create', 'UA-68891710-1', 'auto');
   ga('send', 'pageview');
 
-  // any click event will cancel Bounce Rate
   (function($) {
+    // any click event will cancel Bounce Rate
     $('body').click(function () {
-      _gaq.push(['_trackEvent', 'Control', 'Bounce Rate', '']);
+      ga('send', 'event', 'Engaged users', 'User clicked somewhere on the page');
     })
   })(jQuery);
 </script>
