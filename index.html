@@ -394,7 +394,11 @@
     // any click event will cancel Bounce Rate
     $('body').click(function () {
       ga('send', 'event', 'Engaged users', 'User clicked somewhere on the page');
-    })
+    });
+
+    $('mc-embedded-subscribe').submit(function () {
+      ga('send', 'event', 'signup', 'newsletter conversion');
+    });
   })(jQuery);
 </script>
 
