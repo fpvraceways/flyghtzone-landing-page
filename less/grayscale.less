@@ -206,6 +206,26 @@ a {
   }
 }
 
+.smart-bar {
+  border-radius: 0;
+  padding-top: 10px;
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  z-index: 1040;
+  top: -60px;
+  -webkit-transition: top .5s ease-in-out,padding .5s ease-in-out;
+  -moz-transition: top .5s ease-in-out,padding .5s ease-in-out;
+  transition: top .5s ease-in-out,padding .5s ease-in-out;
+  .close span {
+    color: white;
+    text-shadow: none;
+    font-weight: lighter;
+    line-height: initial;
+    font-size: 24px;
+  }
+}
+
 .navbar-custom {
   min-height: 80px;
   margin-bottom: 0;
@@ -213,6 +233,12 @@ a {
   text-transform: uppercase;
   font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
   background-color: @dark;
+  &.navbar-fixed-top {
+    top: 0;
+    -webkit-transition: top .5s ease-in-out,padding .5s ease-in-out;
+    -moz-transition: top .5s ease-in-out,padding .5s ease-in-out;
+    transition: top .5s ease-in-out,padding .5s ease-in-out;
+  }
   .navbar-brand {
     font-weight: 700;
     &:focus {
@@ -281,7 +307,10 @@ a {
   display: table;
   width: 100%;
   height: auto;
-  padding: 100px 0;
+  padding-top: 80px;
+  -webkit-transition: padding-top .5s ease-in-out,padding .5s ease-in-out;
+  -moz-transition: padding-top .5s ease-in-out,padding .5s ease-in-out;
+  transition: padding-top .5s ease-in-out,padding .5s ease-in-out;
   text-align: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -301,8 +330,6 @@ a {
     }
   }
   @media(min-width:768px) {
-    height: 100%;
-    padding: 100px;
     .intro-body {
       .brand-heading {
         font-size: 100px;
