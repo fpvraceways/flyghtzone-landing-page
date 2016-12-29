@@ -507,6 +507,7 @@
 
   ga('create', 'UA-68891710-1', 'auto');
   ga('send', 'pageview');
+  setTimeout("ga('send', 'event', 'adjusted bounce rate', 'page visit 15 seconds or more')", 15000);
 
   (function($) {
     // any click event will cancel Bounce Rate
