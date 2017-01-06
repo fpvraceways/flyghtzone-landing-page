@@ -487,6 +487,9 @@ footer.footer .social {
   background: #fcfcfc;
   background: rgba(255, 255, 255, 0.2);
 }
+input::selection {
+  background: #cccccc;
+}
 img::selection {
   background: transparent;
 }
