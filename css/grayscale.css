@@ -127,6 +127,11 @@ a:focus {
     margin-bottom: 20px;
   }
 }
+.message_area {
+  padding: 10px;
+  width: 60%;
+  margin: 5px auto;
+}
 #mce-responses {
   margin-bottom: 20px;
   font-weight: 700;
